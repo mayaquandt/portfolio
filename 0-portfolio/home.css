@@ -40,6 +40,14 @@
     background-position: bottom -40px left;
 
 }
+.about-container {
+    padding: 40px 0 20px 0;
+}
+.text {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
 
 /* Contact */
 .container {
