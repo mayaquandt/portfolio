@@ -1,125 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
-    <link rel="shortcut icon" href="../1-images/my-logo-icon.ico" type="image/x-icon"/>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    
-    <title>Maya Quandt</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Rock+Salt" rel="stylesheet">
+  <link rel="shortcut icon" href="../1-images/my-logo-icon.ico" type="image/x-icon" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+
+  <title>Maya Quandt</title>
 
 </head>
+
 <body class="text-center">
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <div>
-        <img src="../1-images/my-logo.jpg" class="logo"></img>
-      </div>
-        <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">MAYA QUANDT</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" href="design.html">Design</a>
-            <a class="nav-link" href="code.html">Code</a>
-            <a class="nav-link" href="resume.html">Resume</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </header>
-
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">Maya Quandt</h1>
-        <p class="lead">art + design student at Marian University</p>
-        <p class="lead">
-          <a href="design.html" class="btn btn-lg btn-secondary">EXPLORE</a>
-        </p>
-      </main>
-
-      <!-- About Me -->
-      <section id="about">
-        <div class="about-container">
-            <h2 class="text-center text-uppercase">about me</h2>
-            <p class="text">
-              I'm Maya Quandt, an art and design student at Marian University. I'm currently a junior studying graphic design, with minors in communication and art history.
-            </p>
-
-        </div>
-      </section>
-
-      <!-- Contact Form -->
-      <section id="contact">
-        <div class="container">
-          <h2 class="text-center text-uppercase">contact me</h2>
-          <div class="row">
-            <div class="col-12">
-              <form action="https://formspree.io/mayaquandt@gmail.com" method="POST">
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>name</label>
-                    <input 
-                      type="text" 
-                      class="form-control" 
-                      placeholder="your name" 
-                      id="name" 
-                      required 
-                      data-validation-required-message="Please enter your name"
-                      name="name"
-                      >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>email address</label>
-                    <input 
-                      type="email" 
-                      class="form-control" 
-                      placeholder="your email" 
-                      id="email" 
-                      required 
-                      data-validation-required-message="Please enter your email"
-                      name="_replyto"
-                    >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <textarea 
-                      class="form-control" 
-                      rows="7" 
-                      placeholder="your message" 
-                      id="message" 
-                      required 
-                      data-validation-required-message="Please leave a message"
-                      name="message"
-                    ></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="text-center">
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-lg btn-black">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                    send message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div>
+      <img src="../1-images/my-logo.jpg" class="logo"></img>
     </div>
-    
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand">MAYA QUANDT</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="design.html">Design</a>
+          <a class="nav-link" href="code.html">Code</a>
+          <a class="nav-link" href="resume.html">Resume</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading">Maya Quandt</h1>
+      <p class="lead">art + design student at Marian University</p>
+      <p class="lead">
+        <a href="design.html" class="btn btn-lg btn-secondary">EXPLORE</a>
+      </p>
+    </main>
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="about-container" style="padding: 75px 200px 0 200px">
+        <h2 class="text-center text-uppercase">about me</h2>
+        <p class="text">
+          Hey there! I'm Maya Quandt, an art and design student at Marian University in Indianapolis, IN. I'm currently a junior studying
+          graphic design, with minors in communication and art history. I'd consider myself an avid learner, experimenter,
+          and adventurer. I love to try new things - in the art + design world, among others. I am very passionate about
+          what I do, and I'm always up for a challenge.
+        </p>
+        <p class="text">
+          I hold myself to a high standard when creating and designing, and I especially focus on being flexible, simplistic, efficient,
+          innovative, and responsible. I really enjoy making others happy, and that is a huge part of why I love designing
+          for myself and others. When I'm not creating something new, you can find me outside in nature, playing the piano,
+          or working out.
+        </p>
+        <p class="text">
+          If you'd like to work together, learn more about what I do, or just ask a few questions, send me a message through my contact
+          form. I'd love to hear from you!
+        </p>
+      </div>
+    </section>
+
+    <!-- Find Me -->
+    <section id="find">
+      <div class="find-container" style="padding: 75px 200px 100px 200px">
+        <h2 class="text-center text-uppercase">find me</h2>
+        <nav class="nav justify-content-center" style="padding-bottom: 10px">
+            <a class="nav-link active" href="https://www.linkedin.com/in/maya-quandt/">LinkedIn</a>
+        </nav>
+        <p>(317) 750-3265</p>
+        <p>mayaquandt@gmail.com</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
