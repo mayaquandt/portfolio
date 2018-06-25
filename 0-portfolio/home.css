@@ -7,6 +7,7 @@
 /* Body */
 .logo {
     width: 50px;
+    padding-top: 15px;
     padding-bottom: 10px;
 }
 
@@ -38,7 +39,6 @@
     height: 700px; 
     width: 100%;
     background-position: bottom -40px left;
-
 }
 .about-container {
     padding: 40px 0 20px 0;
