@@ -22,7 +22,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .cover-heading {
-    padding: 230px 0 10px 0;
+    padding: 270px 0 10px 0;
     margin: 50px 0 0 0;
     color: white;
     font-family: 'Rock Salt', cursive; 
@@ -34,11 +34,11 @@
     font-size: 40px;
 }
 .cover {
-    background-image: url("1-images/cacti-edit.jpg");
+    background-image: url("1-images/island-unsplash.jpg");
     background-size: 100%;
-    height: 700px; 
+    height: 800px; 
     width: 100%;
-    background-position: bottom -40px left;
+    background-position: bottom -70px left;
 }
 .about-container {
     padding: 40px 0 20px 0;
